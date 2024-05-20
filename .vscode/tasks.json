@@ -1,0 +1,13 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "argument",
+            "command": "ls",
+            "args": [
+                "./"
+            ]
+        }
+    ],
+    "version": "2.0.0"
+}

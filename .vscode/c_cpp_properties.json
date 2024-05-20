@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "./SDL/include/",
+                "./SDL/lib/**",
+                "imgui/"
+            ]
+        }
+    ],
+    "version": 4
+}
