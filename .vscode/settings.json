@@ -55,5 +55,8 @@
             "binaryArgs": []
         }
     ],
-    "C_Cpp.default.compilerPath": "C:\\msys64\\usr\\bin\\g++.exe"
+    "C_Cpp.default.compilerPath": "C:\\msys64\\usr\\bin\\g++.exe",
+    "Lua.diagnostics.disable": [
+        "undefined-global"
+    ]
 }

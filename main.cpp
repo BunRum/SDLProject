@@ -92,7 +92,7 @@ int main(int argc, char *args[]) {
     
     SDL_Surface* healthbar_sur = IMG_Load("healthbar.png");
     SDL_Texture* healthbar_tex = SDL_CreateTextureFromSurface(renderer, healthbar_sur);
-    SDL_Rect rect{100, 100, 200, 22};
+    SDL_Rect rect = {100, 100, 200, 22};
 
     SDL_Event e;
     bool quit = false;
